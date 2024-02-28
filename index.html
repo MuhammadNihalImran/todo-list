@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="input">
+        <div id="content">
+           <input class="text" type="text" required >
+            <button id="add"> Add</button>
+        </div>
+        <div id="container">
+            <div class="item">
+                 <h3>an item </h3>
+                <div>
+                    <button id="edit" onclick="editChapter(this)">edit</button> <button  onclick="removeChapter(this)">remove</button></div>
+                </div>
+        </div>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
